@@ -32,7 +32,7 @@ const AlbumDetail = ({ album }) => {
                 />
             </CardSection>
             <CardSection>
-                <Button />
+                <Button onPress={() => console.log('pressed')} />
             </CardSection>
         </Card>
     );
